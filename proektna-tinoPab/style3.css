@@ -1,0 +1,86 @@
+body{
+    background-image: url(background.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+   
+}
+body::before{
+    content: "";
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.546));
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.container{
+    position: relative;
+    margin-top: 65px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 1500px;
+  height: 800px;
+  border: solid white 2px;
+  box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.37);
+}
+
+
+.btn{
+    height: 130px;
+    width: 200px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 30px;
+    position: relative;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+#btn01{
+    left: 180px;
+    bottom: 70px;
+}
+#btn02{
+    left: 230px;
+    bottom: 70px;
+    height: 130px;
+    width: 200px;
+    font-size: 20px;
+}
+#btn03{
+    left: 280px;
+    bottom: 70px;
+}
+#btn04{
+    left: 330px;
+    bottom: 70px;
+}
+#btn05{
+    right: 475px;
+    top: 100px;
+}
+#btn06{
+    right: 425px;
+    top: 100px;
+}
+#btn07{
+    right: 375px;
+    top: 100px;
+}
+#btn08{
+    right: 325px;
+    top: 100px;
+}
+h1{
+    position: relative;
+    color: white;
+    bottom: 270px;
+    left: 700px;
+    
+
+}

@@ -1,0 +1,57 @@
+body{
+    background-image: url(background.jpg);
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+   
+}
+body::before{
+    content: "";
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.546));
+    height: 2000px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.container{
+    
+    position: relative;
+    margin-top: 65px;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   flex-direction: column;
+   
+   width: 1500px;
+  
+  border: solid white 2px;
+  overflow: hidden;
+}
+div{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+H1{
+    color: white;
+}
+.btnn{
+    width: 200px;
+    height: 60px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    position: fixed;
+   right: 265px;
+   bottom: 50px;
+    
+}
+.btnn:hover{
+    color: black;
+    background-color: white;
+}

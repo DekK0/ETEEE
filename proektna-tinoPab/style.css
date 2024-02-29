@@ -1,0 +1,130 @@
+body{
+    background-image: url(background.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    
+}
+body::before{
+    content: "";
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.546));
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.container{
+    position: relative;
+    background-image: url(PozadinaDiv.PNG);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 65px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 1500px;
+  height: 800px;
+  border: solid white 2px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 25px;
+  box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.37);
+  
+}
+
+
+.logo{
+    margin: 0;
+    position: absolute;
+    left: 13px;
+    
+    
+}
+.lista{
+    width: 1500px;
+    height: 60px;
+    position: relative;
+    bottom: 370px;
+    border: solid white 2px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: white;
+}
+
+
+.About{
+    display: flex;
+    position: relative;
+    border-style: outset;
+    width: 250px;
+    height: 60px;
+    top: 250px;
+    left: 600px;
+    color: white;
+    background-color: black;
+    opacity: 90%;
+    border: 1px solid white;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.37);
+}
+.About:hover{
+    background-color: white;
+    color: black;
+}
+
+.eat{
+    display: flex;
+    position: relative;
+    border: 1px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black ;
+    width: 132px;
+    height: 64px;
+    left: 1104px;
+    bottom: 2px;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+
+}
+.drink{
+    display: flex;
+    position: relative;
+    border: 1px solid black;
+    width: 132px;
+    height: 64px;
+    left: 1236px;
+    bottom: 66px;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.contact{
+    display: flex;
+    position: relative;
+    border: 1px solid black;
+    width: 132px;
+    height: 64px;
+    left: 1368px;
+    bottom: 130px;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 20%;
+}
+.eat:hover{
+    background-color: black;
+    color: white;
+}
+.drink:hover{
+    background-color: black;
+    color: white;
+}
+.contact:hover{
+    background-color: black;
+    color: white;
+}

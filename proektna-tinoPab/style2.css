@@ -1,0 +1,82 @@
+body{
+    background-image: url(background.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+   
+}
+body::before{
+    content: "";
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.546));
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.container{
+    position: relative;
+    margin-top: 65px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 1500px;
+  height: 800px;
+  border: solid white 2px;
+}
+
+
+.btn{
+    height: 130px;
+    width: 200px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 30px;
+    position: relative;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+#btn1{
+    left: 220px;
+    bottom: 70px;
+}
+#btn2{
+    left: 270px;
+    bottom: 70px;
+}
+#btn3{
+    left: 320px;
+    bottom: 70px;
+}
+#btn4{
+    left: 370px;
+    bottom: 70px;
+}
+#btn5{
+    right: 475px;
+    top: 100px;
+}
+#btn6{
+    right: 425px;
+    top: 100px;
+}
+#btn7{
+    right: 375px;
+    top: 100px;
+}
+#btn8{
+    right: 325px;
+    top: 100px;
+}
+h1{
+    position: relative;
+    color: white;
+    bottom: 270px;
+    left: 700px;
+    
+
+}
